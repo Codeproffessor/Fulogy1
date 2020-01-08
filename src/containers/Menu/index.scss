@@ -1,0 +1,32 @@
+$menu-width: 300px;
+
+.menu {
+  border: 1px solid black;
+  width: $menu-width;
+  max-width: $menu-width;
+  transition: right .3s;
+  position: absolute;
+  right: 0;
+  height: calc(100% - 50px);
+  background-color: #212121;
+  color: white;
+  overflow: auto;
+  z-index: 9999;
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: none;
+      border-bottom: 1px solid #808080;
+      text-align: center;
+      padding: 20px 0;
+      cursor: pointer;
+    }
+  }
+}
+
+.menu-close {
+  right: -$menu-width;
+}

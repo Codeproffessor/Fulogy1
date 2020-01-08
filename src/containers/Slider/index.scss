@@ -1,0 +1,27 @@
+.slider {
+  position: relative;
+
+  img {
+    box-shadow: 0 3px 5px 5px rgba(0,0,0,.1);
+  }
+
+  .slides__dots {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+
+    span {
+      display: inline-block;
+      border: 1px solid black;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 0 10px;
+    }
+    .slides__dot_active {
+      background-color: black;
+    }
+  }
+}

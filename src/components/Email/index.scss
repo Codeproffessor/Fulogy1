@@ -1,0 +1,16 @@
+.email__template-table {
+  tbody {
+    tr {
+      td {
+        max-width: 600px;
+        font-size: 15px;
+        table {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  .email__template-table_title {
+    font-weight: 900;
+  }
+}

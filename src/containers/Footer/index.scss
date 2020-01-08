@@ -1,0 +1,50 @@
+$color-border: #d6d6d6;
+$color-success: #00abf0;
+
+.footer {
+  display: flex;
+  background-color: white;
+  max-height: 50px;
+  height: 50px;
+  z-index: 10;
+  justify-content: center;
+  border-top: 1px solid $color-border;
+
+  div {
+    height: 100%;
+    width: 80px;
+    border-right: 1px solid $color-border;
+    border-top: none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+    span {
+      height: 3px;
+      background-color: red;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+  div:first-of-type {
+    border-left: 1px solid $color-border;
+  }
+  .footer__success-step {
+    background-color: $color-success;
+    color: white;
+    span {
+      background-color: $color-success;
+    }
+  }
+  .footer__success-menu-item {
+    span {
+      background-color: $color-success;
+    }
+  }
+}

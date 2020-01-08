@@ -1,0 +1,27 @@
+.modal-container {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 100px);
+  background-color: white;
+  overflow: auto;
+
+  .modal {
+    div:first-of-type {
+      padding-left: 20px;
+      padding-top: 20px;
+      
+      span {
+        color: #d7d7d7;
+        cursor: pointer;
+      }
+    }
+    div:last-of-type {
+      p {
+        padding-left: 20px;
+        max-width: 80%;
+      }
+    }
+  }
+}
